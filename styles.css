@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header{
+    background-color: rgb(50, 44, 43);
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: large;
+    margin: 0px;
+    border: 10px;
+    padding: 10px;
+    font-size: 100px;
+}
+a{
+    color: rgb(175, 130, 96);
+}
+
+#titulo{
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: large;
+    border: 5px;
+    padding: 5px;
+    font-size: 50px;
+    float: bottom;
+    overflow: hidden;
+}
+
+#texto{
+    color: rgb(175, 130, 96);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: large;
+    margin: 0px;
+    border: 0px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+#links{
+    float: left;
+    text-align: center;
+    width: calc(25% - 10px);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 15px;
+    padding-top: 15px;
+    border-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+    outline-color: black;
+    outline-width: 10px;
+    outline-style: solid;
+}
+
+#espaco{
+    margin: 10;
+}
+
+#imagem:not(.ifac){
+    float: left;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.ifac {
+    margin-top: 200px;
+    float: left;
+}
+
+.produtos{
+    min-height: calc(100vh - 200px);
+  
+}
+
+#produto{
+    float: left;
+    background-color: rgb(189, 189, 189);
+    color: black;
+    width: calc(100%/3);
+    margin: 10;
+    border: 10;
+    padding: 100;
+    text-align: center;
+}
+
+#produto img{
+    width: 100%;
+}
+
+#esquerda{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#esquerda img{
+    width: 100%;
+}
+
+#direita{
+    float: right;
+}
+
+#partrociniod{
+    width: 100%;
+    box-sizing: 100%;
+    background-color: rgb(136, 136, 136);
+    float: bottom;
+    align-items: center;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(50, 44, 43);
+}
+
+.input-Mensagem{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+/* #secaoContato {
+    color: aqua;
+    
+    
+} */
+
+.botao {
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+    width: 200px;
+    margin-left: 44%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Enviar {
+    font-size: 16px;
+    background-color: blanchedalmond;
+    color: rgb(175, 130, 96);
+    font-weight: 900;
+    text-align: center;
+} 
+
+input:not(#Enviar) {
+    border-radius: 5px;
+    width: 500px;
+    height: 40px;
+}
