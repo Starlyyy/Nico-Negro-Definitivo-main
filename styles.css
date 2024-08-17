@@ -177,3 +177,7 @@ input:not(#Enviar) {
     width: 500px;
     height: 40px;
 }
+
+.audio {
+    margin-left: 41.80%;
+}
